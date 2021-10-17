@@ -1,0 +1,276 @@
+@media(max-width:1199px){
+    .tasks h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .tasks p {
+        padding: 0;
+        margin: 0;
+        line-height: 12px;
+        font-weight: 300;
+        font-size: 12px;
+    }
+    input {
+        background: transparent !important;
+        border: 1px solid #eb3b4d !important;
+        padding: 10px 20px !important;
+        border-radius: 30px !important;
+        width: 65%;
+    }
+    .hero h1 {
+        margin-top: 55px;
+        color: #eb3b4d;
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .hero h5 {
+        font-size: 16px;
+        font-weight: 300;
+        margin: 25px 0px;
+    }
+   
+}
+@media(max-width:991px){
+    .btn-projects {
+        background: none;
+        background: #eb3b4d;
+        border: none;
+        padding: 0;
+        border: 2px solid #eb3b4d;
+        padding: 10px 20px;
+        border-radius: 30px;
+        color: white;
+        margin-left: 3px;
+    }
+    .btn-book {
+        background: none;
+        border: none;
+        border: 2px solid #eb3b4d;
+        padding: 0;
+        padding: 10px 15px;
+        border-radius: 30px;
+        color: #eb3b4d;
+    }
+    .offers p {
+        font-size: 12px;
+    }
+    input {
+        background: transparent !important;
+        border: 1px solid #eb3b4d !important;
+        padding: 10px 20px !important;
+        border-radius: 30px !important;
+        width: 100%;
+    }
+    input[type="submit"] {
+        background: transparent !important;
+        border: 1px solid #eb3b4d !important;
+        width: inherit !important;
+        padding: 10px 20px !important;
+        border-radius: 30px !important;
+        margin-left: 0px !important;
+        background: #eb3b4d !important;
+        color: white;
+        margin-top: 15px;
+    }
+    .review p {
+        font-size: 12px;
+    }
+}
+@media(max-width:767px){
+    .flip-items img{
+        width: 80%;
+        margin: auto;
+    }
+    .details {
+        background-image: url(../images/Component\ 2\ –\ 1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* min-height: 100vh; */
+        color: white;
+        padding: 30px;
+    }
+    .details h3 {
+        font-weight: 700;
+        margin-bottom: 50px;
+        margin-top: 150px;
+        font-size: 22px;
+    }
+    .heading h2 {
+        font-size: 25px;
+    }
+    .about h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .about h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    header {
+        background-image: url(../images/Header\ Banner.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+        position: relative;
+        text-align: center;
+    }
+    .hero h1 {
+        margin-top: 55px;
+        color: #eb3b4d;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .agent-logos img {
+        cursor: pointer;
+        width: 100%;
+    }
+}
+    @media(max-width:575px){
+        .flip-items img {
+            width: 60%;
+            margin: auto;
+        }
+        .form input {
+            border: none !important;
+            border-radius: 0px !important;
+            width: 40%;
+            background: transparent !important;
+            border-bottom: 1px solid grey !important;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+        .form textarea {
+            border: none !important;
+            border-radius: 0px !important;
+            background: transparent !important;
+            border-bottom: 1px solid grey !important;
+            margin-bottom: 30px;
+            width: 80%;
+            padding: 10px 20px;
+            font-size: 12px;
+        }
+        .agent-logos img {
+            cursor: pointer;
+            width: 100%;
+        }
+    }
+    @media(max-width:425px){
+        .tasks i {
+            font-size: 60px;
+            margin: 18px 0px;
+            color: grey;
+        }
+        .plans h4 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .plans h6 {
+            color: grey;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .plans p {
+            font-size: 12px;
+            padding: 0;
+            margin: 0;
+            margin: 10px 0px;
+            color: gray;
+        }
+        .offers h2 {
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .agent-logos img {
+            cursor: pointer;
+            width: 100%;
+        }
+    }
+    @media(max-width:375px){
+        .top-buttons ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+        }
+        .agent-logos img {
+            cursor: pointer;
+            width: 100%;
+        }
+    }
+    @media(max-width:325px){
+        .btn-projects {
+            background: none;
+            background: #eb3b4d;
+            border: none;
+            padding: 0;
+            border: 2px solid #eb3b4d;
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: white;
+            margin-left: 3px;
+            margin-top: 15px;
+        }
+        .top-buttons ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+        }
+        .agent-logos img {
+            cursor: pointer;
+            width: 100%;
+        }
+        .client-img h6 {
+            font-size: 12px;
+            font-weight: 700;
+            margin-left: 15px;
+        }
+        .btn-read {
+            background: transparent;
+            border: none;
+            padding: none;
+            border: 1px solid #eb3b4d;
+            border-radius: 30px;
+            padding: 5px 20px;
+            color: #eb3b4d;
+            font-size: 12px;
+        }
+    }
+    @media(max-width:320px){
+        .btn-book {
+            background: none;
+            border: none;
+            border: 2px solid #eb3b4d;
+            padding: 0;
+            padding: 10px 10px;
+            border-radius: 30px;
+            color: #eb3b4d;
+        }
+        .btn-projects {
+            background: none;
+            background: #eb3b4d;
+            border: none;
+            padding: 0;
+            border: 2px solid #eb3b4d;
+            padding: 10px 30px;
+            border-radius: 30px;
+            color: white;
+            margin-left: 3px;
+            margin-top: 15px;
+        }
+        .top-buttons ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+        }
+        .cont-info p {
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+            font-weight: 300;
+        }
+        .agent-logos img {
+            cursor: pointer;
+            width: 100%;
+        }
+    }
